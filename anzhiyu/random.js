@@ -1,4 +1,4 @@
-var posts=["2025/11/14/hello-world/","2025/11/14/新博客/"];function toRandomPost(){
+var posts=["2025/11/14/新博客/","2025/11/14/hello-world/"];function toRandomPost(){
     pjax.loadUrl('/'+posts[Math.floor(Math.random() * posts.length)]);
   };var friend_link_list=[{"name":"Hexo","link":"https://hexo.io/zh-tw/","avatar":"https://d33wubrfki0l68.cloudfront.net/6657ba50e702d84afb32fe846bed54fba1a77add/827ae/logo.svg","descr":"快速、简单且强大的网站框架"},{"name":"Elykia","link":"https://blog.elykia.cn/","avatar":"https://bu.dusays.com/2024/10/25/671b2438203a6.gif","descr":"致以无暇之人","siteshot":"https://bu.dusays.com/2024/10/25/671b50dc2dd2b.png","color":"vip","tag":"技术"},{"name":"Elykia","link":"https://blog.elykia.cn/","avatar":"https://bu.dusays.com/2024/10/25/671b2438203a6.gif","descr":"生活明朗，万物可爱","recommend":true},{"name":"mccsjs","link":"https://seln.cn/","avatar":"https://seln.cn/img/head.jpg","descr":"点一盏灯，等一个迷路的夜🍁🍁🍁","recommend":true},{"name":"anzhiyu主题","link":"https://hexo.anheyu.com/","avatar":"https://npm.elemecdn.com/anzhiyu-blog-static@1.0.4/img/avatar.jpg","descr":"生活明朗，万物可爱","recommend":true}];
     var refreshNum = 1;
